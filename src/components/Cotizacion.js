@@ -35,7 +35,8 @@ const Cotizacion = ({ resultado }) => {
                 El más bajo del día: <span>{resultado.LOWDAY}</span>
             </Parrafo>
             <Parrafo>
-                Variación últimas 24HS: <span>{resultado.CHANGEPCT24HOUR}</span>
+                Variación últimas 24HS:{' '}
+                <span>{resultado.CHANGEPCT24HOUR} %</span>
             </Parrafo>
             <Parrafo>
                 Última actualización: <span>{resultado.LASTUPDATE}</span>
