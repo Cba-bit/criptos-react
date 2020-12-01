@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/criptos-react/static/css/main.edf8c4d8.chunk.css",
+    "main.js": "/criptos-react/static/js/main.c48ec14f.chunk.js",
+    "main.js.map": "/criptos-react/static/js/main.c48ec14f.chunk.js.map",
+    "runtime-main.js": "/criptos-react/static/js/runtime-main.679670a2.js",
+    "runtime-main.js.map": "/criptos-react/static/js/runtime-main.679670a2.js.map",
+    "static/js/2.92131038.chunk.js": "/criptos-react/static/js/2.92131038.chunk.js",
+    "static/js/2.92131038.chunk.js.map": "/criptos-react/static/js/2.92131038.chunk.js.map",
+    "static/js/3.4b1af09a.chunk.js": "/criptos-react/static/js/3.4b1af09a.chunk.js",
+    "static/js/3.4b1af09a.chunk.js.map": "/criptos-react/static/js/3.4b1af09a.chunk.js.map",
+    "index.html": "/criptos-react/index.html",
+    "static/css/main.edf8c4d8.chunk.css.map": "/criptos-react/static/css/main.edf8c4d8.chunk.css.map",
+    "static/js/2.92131038.chunk.js.LICENSE.txt": "/criptos-react/static/js/2.92131038.chunk.js.LICENSE.txt",
+    "static/media/cryptomonedas.51f1d2ed.png": "/criptos-react/static/media/cryptomonedas.51f1d2ed.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.679670a2.js",
+    "static/js/2.92131038.chunk.js",
+    "static/css/main.edf8c4d8.chunk.css",
+    "static/js/main.c48ec14f.chunk.js"
+  ]
+}
