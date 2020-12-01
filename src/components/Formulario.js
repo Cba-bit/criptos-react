@@ -7,6 +7,7 @@ import Error from './Error';
 
 const Boton = styled.input`
     margin-top: 20px;
+    margin-bottom: 15px;
     font-weight: bold;
     font-size: 20px;
     padding: 10px;
