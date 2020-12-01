@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import useMoneda from '../hooks/useMoneda';
 
 const Boton = styled.input`
     margin-top: 20px;
@@ -19,8 +20,20 @@ const Boton = styled.input`
 `;
 
 const Formulario = () => {
+    const MONEDAS = [
+        { codigo: 'USD', nombre: 'Dolar EEUU' },
+        { codigo: 'EUR', nombre: 'Euro' },
+        { codigo: 'ARS', nombre: 'Peso Argentino' },
+        { codigo: 'GBP', nombre: 'Libra Esterlina' },
+    ];
+
+    // Utilizar useMoneda
+    const [moneda, SelectMonedas] = useMoneda('Elige tu Moneda', '', MONEDAS);
+
     return (
         <form>
+            <SelectMonedas />
+
             <Boton type='submit' value='Calcular' />
         </form>
     );
